@@ -1,0 +1,19 @@
+{
+    "name": "@calledit/commit-reveal",
+    "version": "0.1.0",
+    "description": "Commit-reveal primitive for Solana: seal a claim on-chain before the outcome is known, verify it cannot have been altered after.",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": ["dist", "src"],
+    "scripts": {
+          "build": "tsc"
+    },
+    "dependencies": {
+          "@solana/web3.js": "^1.95.0"
+    },
+    "devDependencies": {
+          "typescript": "^5.5.0"
+    },
+    "keywords": ["solana", "commit-reveal", "attestation", "verification"]
+}
